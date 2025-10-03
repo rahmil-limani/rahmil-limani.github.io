@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prof. Rahmil Limani — Portfolio</title>
+  <meta name="description" content="Lecturer in Operating Systems, Artificial Intelligence & Project Management. Former Head of IT Division at Ministry of Justice, Kosovo." />
+  <meta property="og:title" content="Prof. Rahmil Limani — Portfolio" />
+  <meta property="og:description" content="Lecturer in OS, AI & Project Management. E‑Government leader. Projects, publications, and contact." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preload" as="image" href="Foto 1.png" />
+  <meta property="og:image" content="Foto 1.png" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    .prose a { text-decoration: underline; text-underline-offset: 2px; }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rahmil Limani",
+      "jobTitle": "Lecturer (OS, AI, Project Management)",
+      "affiliation": {"@type":"CollegeOrUniversity","name":"AAB University / College"},
+      "email": "mailto:rahmil.limani@uniersitetiaab.com",
+      "telephone": "+383 48 999 003",
+      "worksFor": [{"@type":"GovernmentOrganization","name":"Ministry of Justice, Government of the Republic of Kosovo"}],
+      "url": "https://www.aab-edu.net",
+      "alumniOf": [
+        {"@type":"CollegeOrUniversity","name":"University of Tirana"},
+        {"@type":"CollegeOrUniversity","name":"Metropolitan University of Tirana"}
+      ]
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/80 border-b border-slate-200">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-extrabold tracking-tight text-xl">Rahmil Limani</a>
+      <button id="navToggle" class="md:hidden p-2 rounded-lg border border-slate-300" aria-label="Toggle navigation">☰</button>
+      <nav id="navMenu" class="hidden md:block">
+        <ul class="flex flex-col md:flex-row gap-3 md:gap-6 text-sm font-medium">
+          <li><a class="hover:text-sky-600" href="#about">About</a></li>
+          <li><a class="hover:text-sky-600" href="#experience">Experience</a></li>
+          <li><a class="hover:text-sky-600" href="#education">Education</a></li>
+          <li><a class="hover:text-sky-600" href="#projects">Projects</a></li>
+          <li><a class="hover:text-sky-600" href="#publications">Publications</a></li>
+          <li><a class="hover:text-sky-600" href="#research">Research</a></li>
+          <li><a class="hover:text-sky-600" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative isolate overflow-hidden">
+    <div class="mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Rahmil Limani</h1>
+        <p class="mt-3 text-lg md:text-xl text-slate-600 max-w-prose">Lecturer in Operating Systems, Artificial Intelligence, and Project Management at AAB University / College. Former Head of the Information Technology Division at the Ministry of Justice, Government of Kosovo.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 rounded-xl px-4 py-2 border border-slate-300 hover:border-sky-500 hover:text-sky-700">Get in touch</a>
+          <a href="#experience" class="inline-flex items-center gap-2 rounded-xl px-4 py-2 bg-sky-600 text-white hover:bg-sky-700">View experience</a>
+        </div>
+      </div>
+      <div class="md:justify-self-end">
+        <figure class="w-full max-w-xs md:max-w-sm mx-auto">
+          <img src="Foto-ff.svg" alt="Portrait of Rahmil Limani" class="w-full h-auto rounded-2xl border border-sky-200 shadow-sm object-cover" loading="lazy" />
+          <figcaption class="mt-2 text-center text-sm text-slate-500">Rahmil Limani</figcaption>
+        </figure>
+        <div class="mt-6 aspect-[4/3] w-full max-w-md rounded-2xl bg-gradient-to-br from-sky-100 to-white border border-sky-200 p-6 flex items-center">
+          <ul class="grid grid-cols-2 gap-3 w-full text-sm">
+            <li class="rounded-xl bg-white p-3 border"><span class="font-semibold">OS</span><br><span class="text-slate-500">Operating Systems</span></li>
+            <li class="rounded-xl bg-white p-3 border"><span class="font-semibold">AI</span><br><span class="text-slate-500">Artificial Intelligence</span></li>
+            <li class="rounded-xl bg-white p-3 border"><span class="font-semibold">PM</span><br><span class="text-slate-500">Project Management</span></li>
+            <li class="rounded-xl bg-white p-3 border"><span class="font-semibold">e‑Gov</span><br><span class="text-slate-500">Gov. IT Leadership</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">About</h2>
+      <p class="mt-4 text-slate-700 max-w-3xl">Born in Raince on April 10, 1972. Based in Pristina, Republic of Kosovo. Fluent in Albanian and English; working knowledge of Serbian and German. Dedicated to advancing education and public-sector digital transformation through pragmatic AI and robust information systems.</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-14 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Professional Experience</h2>
+      <ol class="mt-6 relative border-s border-slate-200">
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">Lecturer — AAB University / College</h3>
+          <p class="text-sm text-slate-500">Pristina • 2019 – Present</p>
+          <p class="mt-2 text-slate-700">Courses: Operating Systems, Artificial Intelligence, and Project Management.</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">CEO — SOZO GROUP L.L.C</h3>
+          <p class="text-sm text-slate-500">Pristina • 2023 – Present</p>
+          <p class="mt-2 text-slate-700">Management consultancy and technology initiatives (sozo-management.com).</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">Head of Information Technology Division — Ministry of Justice</h3>
+          <p class="text-sm text-slate-500">Government of the Republic of Kosovo • 2008 – 2015</p>
+          <p class="mt-2 text-slate-700">Led software and hardware programs across departments; coordinated IT policy with ASHI and the Ministry of Public Administration within Kosovo’s e‑Governance framework.</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">Lecturer — University of Prishtina “Hasan Prishtina”</h3>
+          <p class="text-sm text-slate-500">Pristina • Oct 2002 – Jul 2015</p>
+          <p class="mt-2 text-slate-700">Under the Ministry of Education, Science and Technology, Republic of Kosovo. Taught:</p>
+          <ul class="mt-2 list-disc pl-5 text-sm text-slate-700">
+            <li>Informatics Basics</li>
+            <li>Operating Systems</li>
+          </ul>
+          <p class="mt-2 text-xs text-slate-500">Address: Str. “George Bush”, No. 31, 10000 Prishtina, Republic of Kosovo.</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">Ricon – AL Sh.p.k</h3>
+          <p class="text-sm text-slate-500">Tirana, Albania • 2017 – 2019</p>
+          <p class="mt-2 text-slate-700">Business intelligence services; consulting on hardware, networks & telecommunications; mobile app development and support.</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">IT Manager & Web Designer — Ministry of Transport and Post‑Telecommunications</h3>
+          <p class="text-sm text-slate-500">Government of the Republic of Kosovo • 2007 – 2008</p>
+        </li>
+        <li class="ms-4 py-6">
+          <div class="absolute left-0 -ms-1 mt-2 h-2 w-2 rounded-full bg-sky-600"></div>
+          <h3 class="font-semibold">Informatics Teacher — Xhevde Doda High School</h3>
+          <p class="text-sm text-slate-500">Ministry of Education, Science and Technology • 2000 – 2002</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Education & Fellowships -->
+  <section id="education" class="py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Education & Fellowships</h2>
+
+      <!-- Education timeline -->
+      <ol class="relative mt-8 border-s border-slate-200">
+        <li class="ms-6 pb-8">
+          <span class="absolute -left-1 top-1 h-3 w-3 rounded-full bg-sky-600"></span>
+          <div class="rounded-xl border bg-white p-5">
+            <div class="flex items-center justify-between">
+              <h3 class="font-semibold">Scientific Master’s in Computer Engineering — AI</h3>
+              <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs">2021–2023</span>
+            </div>
+            <p class="text-sm text-slate-500">Metropolitan University of Tirana</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span class="rounded-full bg-sky-50 px-2 py-1 text-sky-700 border border-sky-200">AI</span>
+              <span class="rounded-full bg-emerald-50 px-2 py-1 text-emerald-700 border border-emerald-200">ML</span>
+              <span class="rounded-full bg-violet-50 px-2 py-1 text-violet-700 border border-violet-200">Research</span>
+            </div>
+          </div>
+        </li>
+        <li class="ms-6 pb-8">
+          <span class="absolute -left-1 top-1 h-3 w-3 rounded-full bg-sky-600"></span>
+          <div class="rounded-xl border bg-white p-5">
+            <div class="flex items-center justify-between">
+              <h3 class="font-semibold">Master of Computer Science</h3>
+              <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs">2008</span>
+            </div>
+            <p class="text-sm text-slate-500">University of Tirana</p>
+          </div>
+        </li>
+        <li class="ms-6">
+          <span class="absolute -left-1 top-1 h-3 w-3 rounded-full bg-sky-600"></span>
+          <div class="rounded-xl border bg-white p-5">
+            <div class="flex items-center justify-between">
+              <h3 class="font-semibold">Computer Science Graduate</h3>
+              <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs">1992–1997</span>
+            </div>
+            <p class="text-sm text-slate-500">University of Tirana</p>
+          </div>
+        </li>
+      </ol>
+
+      <!-- Fellowships: chips -->
+      <div class="mt-10">
+        <h3 class="text-lg font-semibold">Honorary & Visiting Fellowships</h3>
+        <div class="mt-4 flex flex-wrap gap-3">
+          <span class="rounded-full border bg-white px-3 py-1 text-sm">Mediterranean University of Albania — Int'l Scientific Conference (2023)</span>
+          <span class="rounded-full border bg-white px-3 py-1 text-sm">Beder University College — Innovation in Business & Technology (2022)</span>
+          <span class="rounded-full border bg-white px-3 py-1 text-sm">University of Sarajevo — Study Visit (2021)</span>
+          <span class="rounded-full border bg-white px-3 py-1 text-sm">Eastern Mediterranean University — Visiting Professor (2012)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainings & Certificates -->
+  <section id="trainings" class="py-14 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Trainings & Certificates</h2>
+
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">E‑Government</p>
+          <h3 class="mt-1 font-semibold">Electronic Procurement</h3>
+          <p class="text-sm text-slate-600">Baden‑Württemberg, Germany</p>
+          <span class="mt-3 inline-block rounded-md border px-2 py-0.5 text-xs">2014</span>
+        </div>
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Justice</p>
+          <h3 class="mt-1 font-semibold">Confiscation of Illegally Acquired Assets</h3>
+          <p class="text-sm text-slate-600">U.S. Dept. of Justice, Washington DC</p>
+          <span class="mt-3 inline-block rounded-md border px-2 py-0.5 text-xs">2013</span>
+        </div>
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Security</p>
+          <h3 class="mt-1 font-semibold">Personal Data Protection</h3>
+          <p class="text-sm text-slate-600">State Agency, Pristina</p>
+          <span class="mt-3 inline-block rounded-md border px-2 py-0.5 text-xs">2011</span>
+        </div>
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">E‑Government</p>
+          <h3 class="mt-1 font-semibold">Republic of Estonia Program</h3>
+          <p class="text-sm text-slate-600">Tallinn</p>
+          <span class="mt-3 inline-block rounded-md border px-2 py-0.5 text-xs">2009</span>
+        </div>
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Microsoft</p>
+          <h3 class="mt-1 font-semibold">Server / AD / Security Design</h3>
+          <p class="text-sm text-slate-600">MCP/MCSA tracks</p>
+        </div>
+        <div class="rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Management</p>
+          <h3 class="mt-1 font-semibold">International PM Preparatory Program</h3>
+          <p class="text-sm text-slate-600">American University</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between gap-4">
+        <h2 class="text-2xl md:text-3xl font-bold">Selected Public‑Sector Projects</h2>
+        <div class="flex gap-2 text-sm">
+          <button data-filter="all" class="proj-filter rounded-lg border px-3 py-1">All</button>
+          <button data-filter="justice" class="proj-filter rounded-lg border px-3 py-1">Justice</button>
+          <button data-filter="egov" class="proj-filter rounded-lg border px-3 py-1">E‑Gov</button>
+        </div>
+      </div>
+
+      <div id="projectGrid" class="mt-6 grid md:grid-cols-2 gap-6">
+        <article data-cat="justice" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Budget Management System (ZOTEX)</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Justice</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice, Government of Kosovo</p>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+            <li>Centralized budgeting workflows across departments</li>
+            <li>Improved transparency and audit readiness</li>
+          </ul>
+        </article>
+
+        <article data-cat="justice" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Victim Protection System</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Justice</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+            <li>Secure case tracking and role‑based access</li>
+            <li>Integrated reporting for ministries & agencies</li>
+          </ul>
+        </article>
+
+        <article data-cat="justice" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Electronic Archiving of War Cases (DML)</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Justice</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+            <li>Digitized sensitive records with retention policies</li>
+          </ul>
+        </article>
+
+        <article data-cat="justice" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Case Management Application (DL/MD)</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Justice</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+        </article>
+
+        <article data-cat="egov" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">EMC Electronic Archive</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">E‑Gov</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+        </article>
+
+        <article data-cat="egov" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">HelpDesk Request Management</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">E‑Gov</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+        </article>
+
+        <article data-cat="egov" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Intranet</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">E‑Gov</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+        </article>
+
+        <article data-cat="justice" class="p-5 bg-white border rounded-2xl">
+          <div class="flex items-start justify-between">
+            <h3 class="font-semibold">Prisoner Management Application</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Justice</span>
+          </div>
+          <p class="mt-1 text-sm text-slate-600">Ministry of Justice</p>
+        </article>
+      </div>
+
+      <p class="mt-4 text-xs text-slate-500">Tip: click filters to focus by domain.</p>
+    </div>
+  </section>
+
+  <script>
+    // simple project filtering
+    document.querySelectorAll('.proj-filter').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        const cat = btn.dataset.filter;
+        document.querySelectorAll('#projectGrid article').forEach(card=>{
+          card.style.display = (cat==='all' || card.dataset.cat===cat) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+
+  <!-- Publications -->
+  <section id="publications" class="py-14 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex items-end justify-between">
+        <h2 class="text-2xl md:text-3xl font-bold">Publications & Opinions</h2>
+        <span class="text-xs text-slate-500">Selected highlights</span>
+      </div>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <a class="group block rounded-2xl border bg-white p-5" href="https://www.epokaere.com/a-duhet-qeveria-e-kosoves-ta-njohe-zyrtarisht-hapesiren-kibernetike-si-nje-kufi-te-edukimit-dhe-te-mbrojtjes-nacionale/" target="_blank" rel="noopener">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold group-hover:underline">Should the Government of Kosovo recognize cyberspace as a domain of education and national security?</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Opinion</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">On national strategy for cyberspace education & defense.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full border px-2 py-0.5">Policy</span>
+            <span class="rounded-full border px-2 py-0.5">Cybersecurity</span>
+          </div>
+        </a>
+
+        <a class="group block rounded-2xl border bg-white p-5" href="https://ekonomia.info/sq/opinion/interneti-dhe-familja" target="_blank" rel="noopener">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold group-hover:underline">Economy, Internet, and Family</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Opinion</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Societal impacts of connectivity in Kosovo.</p>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <span class="rounded-full border px-2 py-0.5">Society</span>
+            <span class="rounded-full border px-2 py-0.5">Economy</span>
+          </div>
+        </a>
+
+        <div class="rounded-2xl border bg-white p-5">
+          <h3 class="font-semibold">Research activity</h3>
+          <ul class="mt-2 list-disc pl-5 text-sm text-slate-700">
+            <li>Department of Computer Science, Cyprus International University (2011).</li>
+            <li>University engagements: University of Tirana (2010); University of Pristina (2009).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section id="research" class="py-14">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Fields of Research & Interest</h2>
+
+      <!-- Tag deck + mini notes -->
+      <div class="mt-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <div class="rounded-xl border bg-white p-4">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold">AI in the justice system</h3>
+            <span class="rounded-md border px-2 py-0.5 text-xs">Focus</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Decision support, ethics, and transparency for courts & ministries.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-4">
+          <h3 class="font-semibold">AI transforming business models</h3>
+          <p class="mt-2 text-sm text-slate-600">Operational efficiency and new value chains in SEE.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-4">
+          <h3 class="font-semibold">AI as economic growth driver</h3>
+          <p class="mt-2 text-sm text-slate-600">Case studies across South‑East Europe.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-4">
+          <h3 class="font-semibold">Integrating AI into digital processes</h3>
+          <p class="mt-2 text-sm text-slate-600">Practical roadmaps for Balkans & EU SMEs.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-4">
+          <h3 class="font-semibold">E‑Government, security & data protection</h3>
+          <p class="mt-2 text-sm text-slate-600">Privacy‑by‑design, access control, interoperability.</p>
+        </div>
+        <div class="rounded-xl border bg-white p-4">
+          <h3 class="font-semibold">Education & digital transformation</h3>
+          <p class="mt-2 text-sm text-slate-600">Curriculum innovation and workforce upskilling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-14 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="p-6 border rounded-2xl bg-gradient-to-br from-slate-50 to-white">
+          <p class="text-sm text-slate-500">Primary</p>
+          <p class="mt-1 text-lg font-semibold"><a href="mailto:rahmil.limani@uniersitetiaab.com">rahmil.limani@uniersitetiaab.com</a></p>
+          <p class="mt-2">Tel: <a href="tel:+38348999003" class="underline">+383 48 999 003</a> • Viber & WhatsApp: <a href="tel:+38345284797" class="underline">+383 45 284 797</a></p>
+          <p class="mt-2">Address: Garibaldi Street, No. 19, Entrance 2; 10000, Pristina, Republic of Kosovo</p>
+        </div>
+        <div class="p-6 border rounded-2xl">
+          <ul class="space-y-2">
+            <li><a class="underline" href="https://www.aab-edu.net" target="_blank" rel="noopener">AAB University / College</a></li>
+            <li><a class="underline" href="http://www.sozo-management.com" target="_blank" rel="noopener">SOZO GROUP L.L.C</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10">
+    <div class="mx-auto max-w-6xl px-4 text-sm text-slate-500 flex items-center justify-between">
+      <p>© <span id="year"></span> Rahmil Limani. All rights reserved.</p>
+      <a href="#home" class="underline">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
+    const t=document.getElementById('navToggle'); const m=document.getElementById('navMenu');
+    if(t&&m){ t.addEventListener('click',()=>{ m.classList.toggle('hidden'); }); }
+  </script>
+</body>
+</html>
